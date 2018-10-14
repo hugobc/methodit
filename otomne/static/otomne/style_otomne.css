@@ -1,0 +1,182 @@
+html, body , {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 100;
+}
+
+
+.fond-baniere{
+  background-color: white;
+  height: 50px;
+  border-bottom: 1px solid #e7e7e7
+}
+
+.size-welcome{
+
+  height: 300px;
+}
+
+.border-radius-welcome{
+  border-radius: 0rem;
+}
+
+.position-text-welcome{
+  padding-top: calc(10%);
+}
+
+.fond-jumbotron{
+  background-color: #103799;
+}
+
+.fond-jumbotron-tutos{
+  background-color: white;
+}
+.text-alignement{
+  text-align : center;
+
+}
+
+.text-font{
+  font-weight: 300;
+}
+
+.text-color{
+color:  #fff;
+}
+
+.link-color{
+color:  black;
+}
+
+ul.header-menu {
+    position: static;
+    float: left;
+    margin: 6px 0 0;
+    padding: 0;
+    min-width: 0;
+    max-width: inherit;
+    width: 100%;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+
+  }
+
+ul.header-menu li{
+  display: inline;
+  padding: 0 0.7em;
+}
+
+
+.img-slide{
+  max-width: 100%;
+  height: auto;"
+
+  }
+
+.img-fixed{
+    width: 300px;
+    height: 300px ;
+
+    }
+
+.footer-padding{
+    padding-block-start: calc(10%);
+    padding-top: calc(33%);
+
+  }
+
+
+
+.fond-illustration{
+
+  background-color: #f6f6f6;
+}
+
+.fond-index{
+  background-color: #003366;
+}
+
+.box{
+
+    width: 300px;
+    border: 2px solid #f6f6f6;
+    padding: 25px;
+    margin: 25px;
+}
+
+
+.phrase-accroche{
+  padding-top: 40px;
+}
+
+a.color{
+  color: white;
+}
+
+a.index{
+  color: black;
+}
+
+
+.color-item_1{
+  color:white
+}
+
+.text-header{
+  color:white;
+}
+
+.background-color-body{
+  background-color: #f6f6f6;
+}
+
+.fond-index-item_1{
+  background-color: #00663e;
+}
+
+.tilte-color-item_1{
+  color: white;
+}
+
+.btn-primary-item_1{
+    color: #fff;
+    background-color: #00663e;
+}
+
+
+
+
+
+
+
+.btn-primary-item_2{
+    color: #fff;
+    background-color: #6C1B96;
+}
+
+
+
+.btn-primary-item_3{
+    color: #fff;
+    background-color:#E98B00 ; /**#620909** #E98B00**/
+}
+
+.text-gras{
+  font-weight: 500;
+}
+
+
+.btn-primary-item_4{
+    color: #fff;
+    background-color: #1A1B5C;
+}
+
+.btn-primary-item_5{
+    color: #fff;
+    background-color:  #620909 ;
+}
+
+.btn-primary-item_6{
+    color: #fff;
+    background-color:#BD2D0E ;
+}

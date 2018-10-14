@@ -1,0 +1,38 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'otomne/style.css' %}" />
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="header-main-container">
+      <header class="masthead page-width">
+      <!--
+        <div class="logo">
+          <h1 class="logo-name">BAC+ARD</h1>
+          <span class="tagline">Aim For Extraordinary</span>
+        </div>
+      -->
+        <div class="menu-container">
+          <nav>
+              <ul class="menu-list-items">
+                 <li><a href="/otomne/"> Home </a>  </li>
+                 <li><a href="/otomne/search/"> Search</a>  </li>
+              </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+<main class="main-container page-width">
+    {%block content%}
+
+    {%endblock content%}
+
+    {% block  next%}
+    {%endblock next%}
+</main>
+<footer class="page-width">
+  <p class="copyright"> Otomne, Copyright &copy; 2018</p>
+</footer>
+  </body>

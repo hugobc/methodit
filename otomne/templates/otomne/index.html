@@ -1,0 +1,36 @@
+{% extends "base_ogeris.html" %}
+
+{% block tutorial_title%}
+   <div class="jumbotron">
+     <h1 class="text-alignement text-font"> Organiz</h1>
+
+     <blockquote class="blockquote-reverse">
+        <p class="text-right phrase-accroche"> «L'ordre fait gagner du temps»</p>
+        <footer class="text-right">Dad <cite title="Source Title"></cite></footer>
+     </blockquote>
+   </div>
+ {% endblock %}
+
+
+
+{% block content %}
+
+
+<div class="">
+  <h1 class="ogeris-title"> Ogeris </h1>
+</div>
+<form action = "/otomne/"  method="post">
+  {% csrf_token %}
+<div class="my_form">
+      {{form}}
+    </div>
+    <div class="out" >
+        {{out}}
+        </div>
+        <div class="another_out">
+         {{len_out}}
+        </div>
+        <div class="math_out">
+        </div>
+    </form>
+{% endblock content %}

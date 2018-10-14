@@ -1,0 +1,175 @@
+body, html {
+  font-family:  "Helvetica Neue", Arial, sans-serif;
+  color: #001;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*Global */
+
+.container{
+  margin: auto;
+  overflow: hidden;
+}
+
+section.homepage-title {
+    text-align: center;
+    padding: 9rem;
+    margin-bottom: 100px;
+}
+
+h1.main-title {
+    font-size: 75px;
+    font-weight: 100;
+}
+h2.subtitle {
+    font-size: 75px;
+    font-weight: 100;
+    line-height: 1.333;
+    color: #08c;
+}
+
+p.copyright {
+    text-align: center;
+}
+
+
+/* Header **/
+
+.page-width {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+#branding {
+    padding-top: 15px;
+    background: url(images/logo_hero.png) no-repeat;
+    height: 354px;
+}
+
+ul.menu-list-items li a {
+    text-decoration: none;
+    color: #001;
+    font-weight: 100;
+}
+
+/*.logo {
+  padding-top: 15px;
+  background: url(images/logo_hero.png) no-repeat;
+  height: 354px;
+
+}*/
+
+.menu{
+  width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul.menu-list-items {
+  list-style: none;
+  text-align: center;
+}
+
+ul.menu-list-items li {
+  display: inline-block;
+  margin-right: 6rem;
+}
+
+ul.menu-list-items li {
+    display: inline-block;
+    margin: 0 6rem 0;
+    font-size: 3rem;
+}
+
+
+.headero{
+  width: 60%;
+  margin:0;
+  overflow: hidden;
+
+}
+
+/************ test ***********/
+body, html {
+  height: 100%;
+}
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+main {
+  height: 100%;
+}
+page-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+h1.logo-name {
+    font-weight: 100;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.header-main-container {
+    border-bottom: 1px solid #f3f3f3;
+}
+.logo {
+    float: left;
+    margin-top: -30px;
+}
+ul.menu-list-items {
+    list-style: none;
+    text-align: right;
+    display: block;
+}
+ul.menu-list-items li {
+    display: inline-block;
+    margin: 0 1rem 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section.intro {
+    text-align: center;
+    padding-top: 6rem;
+}
+h1.main-title {
+    font-size: 75px;
+    font-weight: 100;
+    margin-bottom: -60px;
+
+}
+
+
+h2.subtitle a {
+    text-decoration: none;
+    color: #08c;
+}
+
+
+h1.ogeris-title{
+  text-align: center;
+  margin-top: calc(15%);
+  font-size: 3.7rem;
+  color: darkblue;
+  font-weight: normal;
+}
+
+.my_form{
+  text-align: center;
+}
+
+.out{
+  text-align: center;
+
+}
+
+.another_out{
+  text-align: center;
+
+}
