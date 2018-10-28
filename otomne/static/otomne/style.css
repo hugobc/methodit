@@ -156,7 +156,7 @@ h1.ogeris-title{
   text-align: center;
   margin-top: calc(15%);
   font-size: 3.7rem;
-  color: darkblue;
+  color: #f57408 ; /*darkblue;*/
   font-weight: normal;
 }
 
